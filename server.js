@@ -96,12 +96,12 @@ const Company = require('./models/Company')
 // deleteApple()
 
 //Delete Google
-async function deleteGoogle() {
-    try {
-        const deleteResponse = await Company.deleteOne({"name": "Google"})
-        console.log("Deleted: ", deleteResponse)
-    } catch (err) {
-        console.log(err)
-    }
-}
-deleteGoogle()
+// async function deleteGoogle() {
+//     try {
+//         const deleteResponse = await Company.deleteOne({"name": "Google"})
+//         console.log("Deleted: ", deleteResponse)
+//     } catch (err) {
+//         console.log(err)
+//     }
+// }
+// deleteGoogle()
